@@ -1,0 +1,37 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The diff focused on the changes, which highlights the bug.
+    Diff is powerful because you can compare any two versions even if they are not sequential.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Compare working versions vs broken versions based just on changes made.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: greater control and allows for coherent grouping of changes. Able to build a logical history of the file.
+    Cons: more tedious and requires thoughtful manual effort; susceptible to losing work vs autosave. Requires an understanding of convention or standard for commit size.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is more focused on the corpus because code often operates across several files. The docs paradigm is of finished-product (often WYSIWYG) standalone files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log provides a full review of all commits, and can provide some statistics about the diff for each sequential commit.
+    Git diff then provides the line-by-line compare of two versions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You have an UNDO button! Using git checkout it is possible to revert to working versions of the software, and to track down bugs at the point at which they are introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Interacting with data science and open source communities.
+    Putting my code up on GitHub and working on it and collaborating there.
