@@ -7,3 +7,12 @@ How is the staging area different from the working directory and the repository?
     It is a subset of the working directory and not yet committed as the repo.
     It is helpful to flexibly organize files to be added to an upcoming commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+    Using git diff --staged, one can see what changes will be committed across the repo.
+    One can add to or remove from the staging area to ensure the commit is coherent.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    Testing out new changes or versions. Collaborating on different parts of a corpus.
+    Branches are organized "threads" of work that maintain history of changes as well as where these initiated from the "source of truth" copy.
