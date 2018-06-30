@@ -16,3 +16,7 @@ What are some situations when branches would be helpful in keeping your history 
 
     Testing out new changes or versions. Collaborating on different parts of a corpus.
     Branches are organized "threads" of work that maintain history of changes as well as where these initiated from the "source of truth" copy.
+
+How do the diagrams help you visualize the branch structure?
+
+    They show where branches break from one another, and reachability from each branch.
