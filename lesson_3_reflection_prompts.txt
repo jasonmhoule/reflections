@@ -2,3 +2,8 @@ When would you want to use a remote repository rather than keeping all your work
 
     Publishing a repository with source code for others to see and/or use is one reason to use a site like GitHub.
     Collaborating with others is another use case for a public remote repository.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+    If working with a set of code or a particular branch, you wouldn't want updates to automatically change or conflict with the work you are in the middle of.
+    Manual control is maximum control.
