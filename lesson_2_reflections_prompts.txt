@@ -25,3 +25,8 @@ What is the result of merging two branches together? Why do we represent it in t
 
     Auto-merge combines all changes smartly based on the source node and the separate branches.
     It is represented as a re-combining of branches because all the changes are brought together into a single commit, and this commit tracks both its parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    Automatic merging saves time for simple and obvious merges.
+    There is a chance that it may auto-merge in instances when review is actually needed. However, this is designed to be minimal.
