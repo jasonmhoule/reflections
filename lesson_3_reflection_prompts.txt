@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+    Publishing a repository with source code for others to see and/or use is one reason to use a site like GitHub.
+    Collaborating with others is another use case for a public remote repository.
